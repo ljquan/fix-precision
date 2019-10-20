@@ -1,0 +1,32 @@
+Divide benchmark:
+divide#number-precision x 635,373 ops/sec ±2.22% (86 runs sampled)
+divide#acc x 1,606,092 ops/sec ±1.53% (90 runs sampled)
+divide#fix-precision x 2,554,922 ops/sec ±0.98% (79 runs sampled)
+divide#Decimal x 848,782 ops/sec ±2.20% (80 runs sampled)
+divide#mathjs x 181,165 ops/sec ±2.71% (70 runs sampled)
+Fastest is divide#fix-precision
+
+Minus benchmark:
+minus#number-precision x 483,128 ops/sec ±0.97% (92 runs sampled)
+minus#acc x 1,346,646 ops/sec ±1.28% (82 runs sampled)
+minus#fix-precision x 2,423,385 ops/sec ±0.67% (88 runs sampled)
+minus#Decimal x 870,733 ops/sec ±2.65% (65 runs sampled)
+minus#mathjs x 225,844 ops/sec ±1.53% (75 runs sampled)
+Fastest is minus#fix-precision
+
+Plus benchmark:
+plus#number-precision x 382,820 ops/sec ±1.62% (89 runs sampled)
+plus#acc x 949,859 ops/sec ±1.99% (73 runs sampled)
+plus#fix-precision x 2,416,131 ops/sec ±0.87% (79 runs sampled)
+plus#Decimal x 676,802 ops/sec ±1.89% (81 runs sampled)
+plus#mathjs x 226,337 ops/sec ±1.78% (86 runs sampled)
+Fastest is plus#fix-precision
+
+Times benchmark:
+times#number-precision x 779,483 ops/sec ±0.78% (88 runs sampled)
+times#acc x 1,256,360 ops/sec ±1.68% (85 runs sampled)
+times#fix-precision x 2,524,413 ops/sec ±1.10% (87 runs sampled)
+times#Decimal x 695,175 ops/sec ±2.79% (79 runs sampled)
+times#mathjs x 225,040 ops/sec ±1.69% (87 runs sampled)
+Fastest is times#fix-precision
+

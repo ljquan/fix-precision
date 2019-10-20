@@ -1,6 +1,6 @@
 const acc = require("../other/acc");
 
-describe("matchjs", () => {
+describe("acc", () => {
   test("0.1 + 0.2", () => {
     expect(0.1 + 0.2).not.toBe(0.3);
     const ans = acc.add(0.1, 0.2);

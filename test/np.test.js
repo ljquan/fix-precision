@@ -1,6 +1,6 @@
 const NP = require("number-precision");
 
-describe("matchjs", () => {
+describe("number-precision", () => {
   test("0.1 + 0.2", () => {
     expect(0.1 + 0.2).not.toBe(0.3);
     const ans = NP.plus(0.1, 0.2);

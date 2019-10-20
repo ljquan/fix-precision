@@ -45,7 +45,7 @@ suitePlus.add('plus#number-precision', function() {
 .add('plus#acc', function() {
     acc.add(0.1, 0.2);
 })
-.add('plus#index', function() {
+.add('plus#fix-precision', function() {
     index.add(0.1, 0.2);
 })
 .add('plus#Decimal', function() {
@@ -76,7 +76,7 @@ suiteMinus.add('minus#number-precision', function() {
 .add('minus#acc', function() {
     acc.sub(2.01, 0.01);
 })
-.add('minus#index', function() {
+.add('minus#fix-precision', function() {
     index.sub(2.01, 0.01);
 })
 .add('minus#Decimal', function() {
@@ -109,7 +109,7 @@ suiteTimes.add('times#number-precision', function() {
 .add('times#acc', function() {
   acc.mul(0.1, 0.2);
 })
-.add('times#index', function() {
+.add('times#fix-precision', function() {
   index.mul(0.1, 0.2);
 })
 .add('times#Decimal', function() {
@@ -141,7 +141,7 @@ suiteDivide.add('divide#number-precision', function() {
 .add('divide#acc', function() {
   acc.div(2.01, 0.01);
 })
-.add('divide#index', function() {
+.add('divide#fix-precision', function() {
   index.div(2.01, 0.01);
 })
 .add('divide#Decimal', function() {

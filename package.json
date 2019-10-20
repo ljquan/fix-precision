@@ -23,7 +23,7 @@
     "float"
   ],
   "author": "liquid",
-  "license": "ISC",
+  "license": "MIT",
   "jest": {
     "testRegex": "/test/.*.test.jsx?$"
   }

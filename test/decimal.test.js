@@ -1,6 +1,6 @@
 const Decimal = require("decimal.js");
 
-describe("matchjs", () => {
+describe("decimal", () => {
   test("0.1 + 0.2", () => {
     expect(0.1 + 0.2).not.toBe(0.3);
     const ans = Decimal.add(0.1, 0.2).toNumber(); //new Decimal(0.1).plus(0.2).toNumber();
