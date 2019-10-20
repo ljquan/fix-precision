@@ -39,6 +39,7 @@ FP.mul(0.362, 100);          // = 36.2, not 36.199999999999996
 FP.div(1.21, 1.1);          // = 1.1, not 1.0999999999999999
 ```
 ### benchmark
+```
 Plus benchmark:
 plus#number-precision x 112,875 ops/sec ±4.03% (80 runs sampled)
 plus#acc x 303,780 ops/sec ±2.94% (76 runs sampled)
@@ -70,7 +71,7 @@ divide#fix-precision x 1,553,216 ops/sec ±1.10% (90 runs sampled)
 divide#Decimal x 297,166 ops/sec ±3.31% (85 runs sampled)
 divide#mathjs x 59,992 ops/sec ±3.07% (81 runs sampled)
 Fastest is divide#fix-precision
-
+```
 
 
 ### License
