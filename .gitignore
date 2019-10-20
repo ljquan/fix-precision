@@ -1,0 +1,9 @@
+node_modules
+coverage
+.vscode
+__MACOSX
+.DS_Store
+dist
+examples
+build
+docs
