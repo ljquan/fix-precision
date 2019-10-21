@@ -9,8 +9,7 @@
  */
 function fixPrecision(num, intLength) {
   // 根据整数长度部分，动态调整精度
-  var ans = (+num).toFixed(15 - Math.max(intLength || 0, getIntLength(num)));
-  return parseFloat(ans);
+  return +(+num).toFixed(15 - Math.max(intLength || 0, getIntLength(num)));
 }
 /**
  * 获取整数部分数字长度
@@ -20,10 +19,7 @@ function fixPrecision(num, intLength) {
  */
 function getIntLength(num) {
   var pointIndex = ("" + num).indexOf(".");
-  if (num < 0) {
-    pointIndex--;
-  }
-  return pointIndex;
+  return num < 0 ? pointIndex - 1 : pointIndex;
 }
 function getMaxIL(a, b) {
   return Math.max(getIntLength(a), getIntLength(b));
