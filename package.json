@@ -1,6 +1,6 @@
 {
   "name": "fix-precision",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An efficient way to solve JavaScript floating point computing",
   "main": "index.js",
   "files": [
