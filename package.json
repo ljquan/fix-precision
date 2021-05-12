@@ -11,7 +11,7 @@
     "benchmark": "^2.1.4",
     "decimal.js": "^10.2.0",
     "jest": "^24.9.0",
-    "mathjs": "^6.2.3",
+    "mathjs": "^7.5.1",
     "number-precision": "^1.3.1"
   },
   "scripts": {
